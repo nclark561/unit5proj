@@ -1,5 +1,4 @@
-//@ts-ignore
-module.exports = {
+const initialCountry = {
     name: {
         common: "United States",
         official: "United States of America",
@@ -470,3 +469,5 @@ module.exports = {
     capitalInfo: { latlng: [38.89, -77.05] },
     postalCode: { format: "#####-####", regex: "^\\d{5}(-\\d{4})?$" },
 };
+
+export default initialCountry
